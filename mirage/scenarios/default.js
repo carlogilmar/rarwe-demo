@@ -15,4 +15,9 @@ export default function(server) {
   server.create('song', { title: 'Immigrant Song', rating: 4, band: ledZeppelin });
 
   server.create('song', { title: 'Pretender', rating: 3, band: fooFighters });
+
+  server.create('rhythm', {name:'rhythm 1', band:fooFighters});
+  server.create('rhythm', {name:'rhythm 2', band:fooFighters});
+  server.create('rhythm', {name:'rhythm 3', band:pearlJam});
+  server.create('rhythm', {name:'rhythm 4', band:ledZeppelin});
 }
